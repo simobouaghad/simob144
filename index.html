@@ -261,12 +261,12 @@
         </div>
 
         <div class="contact-form">
-            <form action="">
-                <input type="" placeholder="Enter Your Name" required>
-                <input type="email" placeholder="Enter Your Email" required>
-                <input type="" placeholder="Enter Your Subject">
-                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
-                <input type="submit" value="Submit" class="send">
+            <form action="contact.php" method="POST">
+                <input name="name" id="name" type="test" placeholder="Enter Your Name" required>
+                <input name="email" id="email" type="email" placeholder="Enter Your Email" required>
+                <input name="subject" id="subject" type="test" placeholder="Enter Your Subject">
+                <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input name="submit" id="submit" type="submit" value="Submit" class="send">
             </form>
         </div>
     </section>
