@@ -1,5 +1,6 @@
 <?php
 
+
     if(isset($_POST['submit'])) {
         $to = "bouaghadmohamed@gmail.com";
         $subject = wordwrap($_POST['subject'], 70);
